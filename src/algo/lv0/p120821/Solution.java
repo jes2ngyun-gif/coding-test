@@ -1,7 +1,5 @@
 package algo.lv0.p120821;
 // 배열 뒤집기
-public class Solution {
-
     class Solution {
         public int[] solution(int[] num_list) {
 
@@ -15,7 +13,7 @@ public class Solution {
             return answer;
         }
     }
-}
+
 
 // answer[i] = num_list[num_list.length -1 -i];
 // num_list.length -1을 하면 배열의 마지막 칸 번호가 나옴
