@@ -8,9 +8,9 @@ public class Solution {
 
         int count = 0;                                        // n의 배수 갯수를 세기 위한 변수
 
-        for ( int i = 0; i < numlist.length; i++) {           // numlist 배열을 처음부터끝까지 확인
+        for (int i = 0; i < numlist.length; i++) {           // numlist 배열을 처음부터끝까지 확인
 
-            if(numlist[i] % n == 0) {                         // n으로 나누어떨어지면 n의 배수
+            if (numlist[i] % n == 0) {                         // n으로 나누어떨어지면 n의 배수
 
                 count++;                                      // n의 배수 발견 → count 1증가
             }
@@ -31,6 +31,7 @@ public class Solution {
         }
         return answer;                                          // n의 배수만 담긴 배열을 반환
     }
+}
 
 
     // stream을 활용한 다른 풀이
