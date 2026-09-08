@@ -16,20 +16,20 @@ public class Solution {
     }
 }
 
-// 다른 풀이 : 향상된 for문
-
-public int solution(int[] numbers) {
-
-    // 0부터 9까지의 전체 합
-    int answer = 45;
-
-    // numbers에서 숫자를 하나씩 꺼내 number에 저장한다.
-    for (int number : numbers) {
-
-        // 배열에 존재하는 숫자를 전체 합에서 뺀다.
-        answer = answer - number;
-    }
-
-    // 없는 숫자들의 합 반환
-    return answer;
-}
+//// 다른 풀이 : 향상된 for문
+//
+//public int solution(int[] numbers) {
+//
+//    // 0부터 9까지의 전체 합
+//    int answer = 45;
+//
+//    // numbers에서 숫자를 하나씩 꺼내 number에 저장한다.
+//    for (int number : numbers) {
+//
+//        // 배열에 존재하는 숫자를 전체 합에서 뺀다.
+//        answer = answer - number;
+//    }
+//
+//    // 없는 숫자들의 합 반환
+//    return answer;
+//}
